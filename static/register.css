@@ -1,0 +1,218 @@
+input{
+    border: 1px solid;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color:rgb(210,142,143) ;
+    margin-left: 30%;
+
+}
+label{
+    font-size: 30px;
+    margin-left: 30%;
+
+}
+h1{text-align: center;}
+
+button{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: 30%;
+    
+    background-color:rgb(210,142,143) ;
+
+}
+
+
+.content{
+    margin: 0 auto;
+    margin-left: 500px;
+    
+}
+
+.container{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 20%;
+     background-color: rgb(210,186,216); 
+    
+    
+}
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.image{
+    height: 100px;
+    width: 100px;
+padding-right:800px;
+    
+}
+.icons{
+    display: flex;
+    margin-left: 40%;
+    gap: 30px;
+   
+    padding-top: 40px;
+
+    
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    padding-top: 40px;
+}
+@media only screen and (min-width:280px)and (max-width:425px) {
+
+    input{
+        border: 1px solid;
+        width: 150px;
+        border-radius: 20px;
+        padding: 20px;
+        background-color:rgb(210,142,143) ;
+        margin-left: 20%;
+    flex-wrap: wrap;
+    
+    }
+    label{
+        font-size: 20px;
+        margin-left: 20%;
+    
+    }
+
+    .container{
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 10%;
+         background-color: rgb(210,186,216); 
+        
+        
+    }
+    .image{
+        height: 100px;
+        width: 100px;
+    /* padding-right:30px; */
+        
+    }
+    button{
+        width: 100px;
+        padding: 10px;
+        border: 1px solid;
+        border-radius: 20px;
+        /* margin-left: 30%; */
+        
+        background-color:rgb(210,142,143) ;
+    
+    }
+
+}
+@media only screen and (min-width:425px)and (max-width:960px) {
+    input{
+        border: 1px solid;
+        width: 150px;
+        border-radius: 20px;
+        padding: 20px;
+        background-color:rgb(210,142,143) ;
+        margin-left: 20%;
+    flex-wrap: wrap;
+    
+    }
+    label{
+        font-size: 20px;
+        margin-left: 20%;
+    
+    }
+
+    .container{
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        width: 90%;
+        /* margin-left: 5%; */
+         background-color: rgb(210,186,216); 
+        
+        
+    }
+    .image{
+        height: 100px;
+        width: 100px;
+    
+        
+    }
+    button{
+        width: 100px;
+        padding: 10px;
+        border: 1px solid;
+        border-radius: 20px;
+        /* margin-left: 30%; */
+        
+        background-color:rgb(210,142,143) ;
+    
+    }
+
+
+
+}
+@media only screen and (min-width:960px)and (max-width:1120px) {
+    input{
+        border: 1px solid;
+        width: 150px;
+        border-radius: 20px;
+        padding: 20px;
+        background-color:rgb(210,142,143) ;
+        /* margin-left: 20%; */
+        flex-wrap: wrap;
+    
+    }
+    label{
+        font-size: 20px;
+        margin-left: 20%;
+    
+    }
+
+    .container{
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        width: 90%;
+        /* margin-left: 10%; */
+         background-color: rgb(210,186,216); 
+        
+        
+    }
+    .image{
+        height: 100px;
+        width: 100px;
+    /* padding-right:30px; */
+        
+    }
+    button{
+        width: 100px;
+        padding: 10px;
+        border: 1px solid;
+        border-radius: 20px;
+        /* margin-left: 30%; */
+        
+        background-color:rgb(210,142,143) ;
+    
+    }
+
+
+
+}

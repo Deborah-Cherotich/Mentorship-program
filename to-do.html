@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="./static/to-do.css">
+    <script src="index.js"></script>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="list">
+    <h1>To-do-List</h1>
+    
+     
+        <input type="text" id="new-task" placeholder="Enter a new task">
+        <button id="add-task" class="add">+ Add</button>
+        <ul id="todo-list"></ul>
+        <script>
+          const todoList = document.getElementById('todo-list');
+          const newTaskInput = document.getElementById('new-task');
+          const addTaskButton = document.getElementById('add-task');
+          const tasks = []; 
+          addTaskButton.addEventListener('click', function() {
+            const task = newTaskInput.value.trim(); 
+            if (task) { 
+              tasks.push(task);
+              newTaskInput.value = ''; 
+              renderTodoList();
+            }
+          });
+          function renderTodoList() {
+            todoList.innerHTML = ''; 
+            tasks.forEach((task, index) => {
+              const listItem = document.createElement('li');
+              listItem.innerText = task;
+              const deleteButton = document.createElement('button');
+              deleteButton.innerText = 'Delete';
+              deleteButton.addEventListener('click', function() {
+                tasks.splice(index, 1); 
+                renderTodoList();
+              });
+              listItem.appendChild(deleteButton);
+              todoList.appendChild(listItem);
+            });
+          }
+        </script>
+<a href="nyj.html">NYJ assignment</a>
+
+
+
+</div>
+
+</body>
+</html>

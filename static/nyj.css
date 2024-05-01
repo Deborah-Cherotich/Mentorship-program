@@ -42,7 +42,7 @@ a{
         padding-left: 50px;
         background-color: rgb(210,186,216); 
         width: 70%;
-        font-size: 13px;
+        font-size: 15px;
         height: 90%;
         
     
@@ -64,7 +64,7 @@ a{
         padding-left: 50px;
         background-color: rgb(210,186,216); 
         width: 70%;
-        font-size: 13px;
+        font-size: 20px;
         height: 80%;
         
     
@@ -85,7 +85,7 @@ a{
         padding-left: 50px;
         background-color: rgb(210,186,216); 
         width: 70%;
-        font-size: 13px;
+        font-size: 20px;
         height: 100%;
         
     
@@ -106,7 +106,7 @@ a{
         padding-left: 50px;
         background-color: rgb(210,186,216); 
         width: 70%;
-        font-size: 5px;
+        font-size: 20px;
         height: 100%;
         
     
@@ -128,8 +128,29 @@ a{
         padding-left: 50px;
         background-color: rgb(210,186,216); 
         width: 70%;
-        font-size: 5px;
-        height: 10%;
+        font-size: 20px;
+        height: 100%;
+        
+    
+    }
+
+}
+@media only screen and (min-width:1600px)and (max-width:2550px) {
+    .container{
+
+        padding-left: 40px;
+        height: 100%;
+    
+        
+    
+    }
+    .paragraph{
+        padding: 20px;
+        padding-left: 50px;
+        background-color: rgb(210,186,216); 
+        width: 70%;
+        font-size: 30px;
+        height: 100%;
         
     
     }
